@@ -1,0 +1,63 @@
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+    /* @media only screen and (max-width: 990px) {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    } */
+}
+
+#navtext{
+    font-family: 'Atkinson-Hyperledgible-Regular';
+    font-weight: 100;
+    color: #FFF6E9;
+    font-size: 30px;
+    margin-left: 2em; 
+    /* p:hover {
+        text-decoration: none;
+      } */
+}
+
+.navbar__item{
+    
+}
+
+#navHeader1{
+    font-family: "Pridi";
+    font-size: 36px;
+    color: #FFF6E9;
+    /* @media only screen and (max-width: 1100px) {
+        font-size: 24px;
+    } */
+}
+
+
+#nav-choices{
+    display: flex;
+    flex-flow: row nowrap;
+    padding-right: 2em;
+    /* @media only screen and (max-width: 990px) {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    } */
+}
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+
+  #navbar-container {
+      display: flex;
+      align-items: baseline;
+      padding-top: 2em;
+      width: 100%;
+  }
